@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
 
     }
 
@@ -60,6 +61,16 @@ public class Main {
         {System.out.print(proizvol[i]);
          if (i != 0)
              System.out.print(", ");}
+        System.out.println();
     }
+    public static void task3() {
+        System.out.println("Задача 4");
+        int[] number = { 1, 2, 3 };
+        for (int i = 0; i < number.length; i++) {
+        if (number[i] % 2 != 0){
+        number[i] += 1;}
+        System.out.println(Arrays.toString(number));}
+    }
+
 
 }
